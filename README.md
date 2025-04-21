@@ -34,7 +34,7 @@ The following data quality issues were observed and handled:
   - A general-purpose name cleaning function was implemented using regular expressions to remove these patterns throughout
 
 - **Incomplete or missing data:**
-  - Fields like `DOB`, `Nationality`, `Alias Quality`, and `Country` often had missing values — especially for organizational entities and aliases
+  - Fields like `DOB`, `Nationality`, `Alias Quality`, and `Country` often had missing values — especially for organisational entities and aliases
   - These were retained as-is to avoid discarding relevant but partial entries
 
 - **Duplicate-like records:**
