@@ -53,10 +53,3 @@ Basic unit tests were included for all core transformation functions:
 
 These ensure proper functionality for edge cases such as missing names, malformed dates, and inconsistent formatting.
 
-## Notes
-- The script focuses on cleaning and preparing the data for analysis without introducing assumptions or aggressive deduplication.
-- Manual review was used during development to identify recurring issues, followed by general-purpose functions to clean the entire dataset.
-- Output is sorted, deduplicated (exact matches), and fully readable.
-
----
-**Prepared for the Malverde data challenge — April 2025**
