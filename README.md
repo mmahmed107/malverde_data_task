@@ -8,7 +8,7 @@
 
 ## Files Submitted
 - `ConList_cleaned.csv`: Final cleaned output
-- `data_transformation_complete.py`: Python script containing all transformation logic and unit tests
+- `data_transformation.py`: Python script containing all transformation logic and unit tests
 - `README.md`: This documentation file
 
 ## How to Run the Script
@@ -22,7 +22,7 @@
 **Execution:**
 Ensure `ConList.xlsx` (input file) is in the same directory as the script. Then run:
 ```bash
-python data_transformation_complete.py
+python data_transformation.py
 ```
 This will generate `ConList_cleaned.csv` in the same folder.
 
